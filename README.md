@@ -3,12 +3,14 @@
 [![NPM Version](http://img.shields.io/npm/v/mml-iterator.svg?style=flat-square)](https://www.npmjs.org/package/mml-iterator)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://mohayonao.mit-license.org/)
 
-> MML(Music Macro Language) Iterator
+# MML(Music Macro Language) Iterator
+
+This is a fork of the (`mml-iterator`)[https://github.com/mohayonao/mml-iterator] by _mohayonao_, with some syntax extensions for greater compatibility with songs that can be found on the internet. Should be syntax backwards-compatible with the original, but it has been refactored into an ES module.
 
 ## Installation
 
 ```
-$ npm install mml-iterator
+$ npm install @jstarpl/mml-iterator
 ```
 
 ## API
@@ -22,7 +24,7 @@ $ npm install mml-iterator
 ## Example
 
 ```js
-import MMLIterator from "mml-iterator";
+import MMLIterator from "@jstarpl/mml-iterator";
 
 let iter = new MMLIterator("t200 o6 l8 e g > e c d g");
 
@@ -49,7 +51,7 @@ for (let noteEvent of iter) {
 - __[__ ([__cdefgab__][__-+__]?|[__<>__])+ __]__(\\d+)?\\.*
   - chord (default: l)
   - e.g. `[ >g<ce ]2 [ >gb<d ]2 [ >g<ce ]1`
-- __r__(\\d+)?\\.*
+- [__rp__](\\d+)?\\.*
   - rest (default: l)
   - e.g. `l16 crcc crcc crccr crcc`
 
