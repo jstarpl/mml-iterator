@@ -46,5 +46,8 @@
     "test": "mocha --require babel-register",
     "travis": "npm-run-all lint mocha",
     "version": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
