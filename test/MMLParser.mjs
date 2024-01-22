@@ -1,8 +1,8 @@
 "use strict";
 
-const assert = require("power-assert");
-const MMLParser = require("../src/MMLParser");
-const Syntax = require("../src/Syntax");
+import assert from "power-assert";
+import MMLParser from "../lib/MMLParser.mjs";
+import Syntax from "../lib/Syntax.mjs";
 
 describe("MMLParser", () => {
   describe("constructor(source: string)", () => {
@@ -19,7 +19,7 @@ describe("MMLParser", () => {
 
       assert(Array.isArray(result));
       assert(result.length === 3);
-      assert(result.every(command => command.hasOwnProperty("type")));
+      assert(result.every(command => Object.prototype.hasOwnProperty.call(command, "type")));
     });
   });
   describe("#advance(): object", () => {
@@ -271,6 +271,24 @@ describe("MMLParser", () => {
       assert.deepEqual(parser.readNoteQuantize(), {
         type: Syntax.NoteQuantize,
         value: 4
+      });
+    });
+  });
+  describe("#readInstrument(): object", () => {
+    it("@", () => {
+      const parser = new MMLParser("@");
+
+      assert.deepEqual(parser.readInstrument(), {
+        type: Syntax.Instrument,
+        value: null
+      });
+    });
+    it("@3", () => {
+      const parser = new MMLParser("@3");
+
+      assert.deepEqual(parser.readInstrument(), {
+        type: Syntax.Instrument,
+        value: 3
       });
     });
   });

@@ -1,7 +1,7 @@
 "use strict";
 
-const assert = require("power-assert");
-const MMLIterator = require("../src/MMLIterator");
+import assert from "power-assert";
+import MMLIterator from "../lib/MMLIterator.mjs";
 
 describe("MMLIterator", () => {
   describe("constructor(source: string, config: object)", () => {
@@ -29,15 +29,15 @@ describe("MMLIterator", () => {
 
       assert.deepEqual(iter.next(), {
         done: false,
-        value: { type: "note", time: 0.0, duration: 0.5, noteNumber: 60, velocity: 100, quantize: 75 }
+        value: { type: "note", time: 0.0, duration: 0.5, noteNumber: 60, velocity: 100, quantize: 75, instrument: 0 }
       });
       assert.deepEqual(iter.next(), {
         done: false,
-        value: { type: "note", time: 0.5, duration: 0.5, noteNumber: 64, velocity: 100, quantize: 75 }
+        value: { type: "note", time: 0.5, duration: 0.5, noteNumber: 64, velocity: 100, quantize: 75, instrument: 0 }
       });
       assert.deepEqual(iter.next(), {
         done: false,
-        value: { type: "note", time: 1.0, duration: 0.5, noteNumber: 67, velocity: 100, quantize: 75 }
+        value: { type: "note", time: 1.0, duration: 0.5, noteNumber: 67, velocity: 100, quantize: 75, instrument: 0 }
       });
       assert.deepEqual(iter.next(), {
         done: false,
@@ -59,9 +59,9 @@ describe("MMLIterator", () => {
       }
 
       assert.deepEqual(result, [
-        { type: "note", time: 0.0, duration: 0.5, noteNumber: 60, velocity: 100, quantize: 75 },
-        { type: "note", time: 0.5, duration: 0.5, noteNumber: 64, velocity: 100, quantize: 75 },
-        { type: "note", time: 1.0, duration: 0.5, noteNumber: 67, velocity: 100, quantize: 75 },
+        { type: "note", time: 0.0, duration: 0.5, noteNumber: 60, velocity: 100, quantize: 75, instrument: 0 },
+        { type: "note", time: 0.5, duration: 0.5, noteNumber: 64, velocity: 100, quantize: 75, instrument: 0 },
+        { type: "note", time: 1.0, duration: 0.5, noteNumber: 67, velocity: 100, quantize: 75, instrument: 0 },
         { type: "end", time: 1.5 }
       ]);
     });

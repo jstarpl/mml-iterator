@@ -1,8 +1,8 @@
 "use strict";
 
-const assert = require("power-assert");
-const MMLIterator = require("../src/MMLIterator");
-const testCases = require("./testCases.json");
+import assert from "power-assert";
+import MMLIterator from "../lib/MMLIterator.mjs";
+import testCases from './testCases.snap.json' assert { type: 'json' }
 
 function getIteratorResult(iter) {
   const result = [];

@@ -1,7 +1,7 @@
 "use strict";
 
-const assert = require("power-assert");
-const Scanner = require("../src/Scanner");
+import assert from "power-assert";
+import Scanner from "../lib/Scanner.mjs";
 
 describe("Scanner", () => {
   describe("constructor(source: string)", () => {

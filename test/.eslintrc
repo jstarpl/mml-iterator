@@ -1,4 +1,5 @@
 {
+  "plugins": [ "node" ],
   "env": {
     "mocha": true
   }
