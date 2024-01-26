@@ -1,7 +1,7 @@
 {
   "name": "@jstarpl/mml-iterator",
   "description": "MML(Music Macro Language) Iterator",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "authors": [
     "Nao Yonamine <mohayonao@gmail.com>",
     "Jan Starzak <jan.starzak@gmail.com>"
