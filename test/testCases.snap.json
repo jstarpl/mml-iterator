@@ -6,7 +6,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -15,7 +15,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -24,12 +24,54 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
       "type": "end",
       "time": 1.5
+    }
+  ],
+  "cegn61": [
+    {
+      "type": "note",
+      "time": 0,
+      "duration": 0.5,
+      "noteNumber": 60,
+      "velocity": 100,
+      "instrument": null,
+      "quantize": 75
+    },
+    {
+      "type": "note",
+      "time": 0.5,
+      "duration": 0.5,
+      "noteNumber": 64,
+      "velocity": 100,
+      "instrument": null,
+      "quantize": 75
+    },
+    {
+      "type": "note",
+      "time": 1,
+      "duration": 0.5,
+      "noteNumber": 67,
+      "velocity": 100,
+      "instrument": null,
+      "quantize": 75
+    },
+    {
+      "type": "note",
+      "time": 1.5,
+      "duration": 0.5,
+      "noteNumber": 61,
+      "velocity": 100,
+      "instrument": null,
+      "quantize": 75
+    },
+    {
+      "type": "end",
+      "time": 2
     }
   ],
   "@1ceg": [
@@ -72,7 +114,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -81,7 +123,7 @@
       "duration": 0.25,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -90,7 +132,7 @@
       "duration": 0.75,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -105,7 +147,7 @@
       "duration": 1.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -114,7 +156,7 @@
       "duration": 0.75,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -123,7 +165,7 @@
       "duration": 1.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -138,7 +180,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -147,7 +189,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -156,7 +198,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -177,7 +219,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -186,7 +228,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -195,7 +237,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -210,7 +252,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -219,7 +261,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -228,7 +270,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -243,7 +285,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -252,7 +294,7 @@
       "duration": 0.5,
       "noteNumber": 76,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -261,7 +303,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -276,7 +318,7 @@
       "duration": 0.125,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -285,7 +327,7 @@
       "duration": 0.125,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -294,7 +336,7 @@
       "duration": 0.125,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -309,7 +351,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 50
     },
     {
@@ -318,7 +360,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 50
     },
     {
@@ -327,7 +369,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 50
     },
     {
@@ -342,7 +384,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 80,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -351,7 +393,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 80,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -360,7 +402,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 80,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -375,7 +417,7 @@
       "duration": 0.75,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -384,7 +426,7 @@
       "duration": 0.75,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -393,7 +435,7 @@
       "duration": 0.75,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -408,7 +450,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -417,7 +459,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -426,7 +468,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -435,7 +477,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -444,7 +486,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -453,7 +495,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -462,7 +504,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -471,7 +513,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -480,7 +522,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -489,7 +531,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -498,7 +540,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -507,7 +549,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -516,7 +558,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -525,7 +567,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -534,7 +576,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     }
   ],
@@ -545,7 +587,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -554,7 +596,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -563,7 +605,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -572,7 +614,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -581,7 +623,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -590,7 +632,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -599,7 +641,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -608,7 +650,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -617,7 +659,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -626,7 +668,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -635,7 +677,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -644,7 +686,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -653,7 +695,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -662,7 +704,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -671,7 +713,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     }
   ],
@@ -682,7 +724,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -697,7 +739,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -718,7 +760,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -727,7 +769,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -736,7 +778,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -745,7 +787,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -754,7 +796,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -763,7 +805,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -778,7 +820,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -787,7 +829,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -796,7 +838,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -805,7 +847,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -814,7 +856,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -823,7 +865,7 @@
       "duration": 0.5,
       "noteNumber": 67,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -832,7 +874,7 @@
       "duration": 0.5,
       "noteNumber": 60,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {
@@ -841,7 +883,7 @@
       "duration": 0.5,
       "noteNumber": 64,
       "velocity": 100,
-      "instrument": 0,
+      "instrument": null,
       "quantize": 75
     },
     {

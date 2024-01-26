@@ -49,6 +49,17 @@ describe("MMLParser", () => {
       }, SyntaxError);
     });
   });
+  describe("#readNoteAbsolute(): object", () => {
+    it("n61", () => {
+      const parser = new MMLParser("n61");
+
+      assert.deepEqual(parser.readNoteAbsolute(), {
+        type: Syntax.NoteAbsolute,
+        noteNumbers: [ 61 ],
+        noteLength: [ null ]
+      });
+    });
+  })
   describe("#readNote(): object", () => {
     it("c", () => {
       const parser = new MMLParser("c");
